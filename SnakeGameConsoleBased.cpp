@@ -167,7 +167,7 @@ void logic(){
 int main(){
     start_setup();
     while (!gameover){
-        Sleep(3);
+        Sleep(50);
         draw();
         input();
         logic();
